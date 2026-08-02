@@ -62,7 +62,7 @@ export default function AdminQuotes() {
 
     const fetchQuotes = async () => {
       try {
-        const response = await fetch("http://localhost:3000/api/admin/quotes", {
+        const response = await fetch("https://skjold-production-f44f.up.railway.app/api/admin/quotes", {
           headers: {
             Authorization: `Bearer ${token}`,
           },
@@ -113,7 +113,7 @@ export default function AdminQuotes() {
     }
 
     try {
-      const res = await fetch(`http://localhost:3000/api/admin/quotes/${id}`, {
+      const res = await fetch(`https://skjold-production-f44f.up.railway.app/api/admin/quotes/${id}`, {
         method: "DELETE",
         headers: { Authorization: `Bearer ${token}` },
       });
