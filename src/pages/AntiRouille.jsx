@@ -7,33 +7,33 @@ import FaqItem from "../components/FaqItem";
 const steps = [
   {
     num: "01",
-    title: "Lavage haute pression",
-    desc: "Nettoyage complet pour éliminer les résidus routiers.",
+    title: "Højtryksvask",
+    desc: "Komplet rengøring for at fjerne vejrester.",
   },
   {
     num: "02",
-    title: "Séchage thermique",
-    desc: "Élimination de l'humidité par air chaud.",
+    title: "Termisk tørring",
+    desc: "Fjernelse af fugt med varm luft.",
   },
   {
     num: "03",
-    title: "Inspection détaillée",
-    desc: "Examen minutieux des zones critiques.",
+    title: "Detaljeret inspektion",
+    desc: "Nøje undersøgelse af kritiske områder.",
   },
   {
     num: "04",
-    title: "Injection corps creux",
-    desc: "Protection interne des longerons et portes.",
+    title: "Hulrumsindsprøjtning",
+    desc: "Beskyttelse af indvendige kasseprofiler og døre.",
   },
   {
     num: "05",
-    title: "Protection de surface",
-    desc: "Couche protectrice sur l'ensemble du châssis.",
+    title: "Overfladebeskyttelse",
+    desc: "Beskyttende lag på hele chassiset.",
   },
   {
     num: "06",
-    title: "Contrôle qualité",
-    desc: "Vérification finale et certificat de garantie.",
+    title: "Kvalitetskontrol",
+    desc: "Endelig kontrol og garantiattest.",
   },
 ];
 
@@ -145,8 +145,7 @@ export default function AntiRouille() {
           {
             text:
               `Speciel behandling er en avanceret indsats målrettet køretøjer med særlige behov: allerede synlig korrosion, intensiv brug, udsættelse for ekstreme forhold eller særlige karakteristika pga. alder eller type.
-                Modsat standard- eller vedligeholdelsesbehandlinger sigter denne service mod at korrigere, stabilisere og styrke beskyttelsen af allerede svækkede eller svært tilgængelige områder.`,
-          },
+                Modsat standard- eller vedligeholdelsesbehandlinger sigter denne behandling mod at korrigere, stabilisere og styrke beskyttelsen af allerede svækkede eller svært tilgængelige områder.`,
           {
             subtitle: "Hvilke køretøjer?",
             text:
@@ -207,7 +206,7 @@ export default function AntiRouille() {
             <ol className="inline-flex items-center space-x-1 md:space-x-3 text-label-sm">
               <li className="inline-flex items-center text-secondary">
                 <Link className="hover:text-primary" to="/#services">
-                  Services
+                  Tjenester
                 </Link>
               </li>
               <li>
@@ -216,14 +215,14 @@ export default function AntiRouille() {
                     chevron_right
                   </span>
                   <span className="text-on-surface font-medium">
-                    Anti-Rust Treatment
+                    Anti-rustbehandling
                   </span>
                 </div>
               </li>
             </ol>
           </nav>
           <h1 className="font-headline-lg text-headline-lg text-on-surface">
-            Traitement Anti-Rouille
+            Anti-rustbehandling
           </h1>
         </div>
       </section>
@@ -251,17 +250,16 @@ export default function AntiRouille() {
             </nav>
             <div className="mt-lg p-lg bg-surface-container text-on-surface rounded-lg">
               <h3 className="font-headline-md text-headline-md mb-sm">
-                Besoin d'aide ?
+                Har du brug for hjælp?
               </h3>
               <p className="font-body-md text-body-md text-secondary mb-md">
-                Nos experts sont disponibles pour répondre à vos questions sur
-                la protection de votre véhicule.
+                Vores eksperter er klar til at besvare dine spørgsmål om beskyttelse af dit køretøj.
               </p>
               <Link
                 to={{ pathname: "/", hash: "#devis" }}
                 className="w-full block text-center bg-primary text-on-primary py-sm rounded font-label-bold"
               >
-                Contactez-nous
+                Kontakt os
               </Link>
             </div>
           </aside>
@@ -314,7 +312,7 @@ export default function AntiRouille() {
               {/* Process Recap */}
               <div className="bg-surface-container-lowest p-lg rounded-xl border border-surface-container-high mb-xl">
                 <h3 className="font-headline-md text-headline-md text-on-surface mb-lg text-center">
-                  Notre Processus en 6 Étapes
+                  Vores 6-trins proces
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-md">
                   {steps.map((step) => (
@@ -353,7 +351,8 @@ export default function AntiRouille() {
           />
           <FaqItem
             question="Hvad koster en komplet behandling?"
-            answer="Prisen varierer efter køretøjets størrelse. Vores priser starter fra 350€ for en komplet chassisbehandling. Kontakt os for et præcist tilbud."
+            answer="Prisen varierer efter køretøjets størrelse. Vores priser starter fra 350 kr. for en komplet chassisbehandling. Kontakt os for et præcist tilbud."
+          />
           />
         </div>
       </section>
