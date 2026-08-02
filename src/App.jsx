@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
 import AntiRouille from "./pages/AntiRouille";
 import AdminLogin from "./pages/AdminLogin";
@@ -17,6 +17,7 @@ function App() {
         <Route path="/anti-rouille" element={<AntiRouille />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/legal-notice" element={<LegalNotice />} />
+        <Route path="/admin" element={<Navigate to="/admin/login" replace />}
         <Route path="/admin/login" element={<AdminLogin />} />
         <Route path="/admin/dashboard" element={<AdminDashboard />} />
         <Route path="/admin/quotes" element={<AdminQuotes />} />
