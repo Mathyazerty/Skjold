@@ -349,10 +349,6 @@ export default function AntiRouille() {
           <FaqItem
             question="Hvad koster en komplet behandling?"
             answer="Prisen varierer efter køretøjets størrelse. Vores priser starter fra 350 kr. for en komplet chassisbehandling. Kontakt os for et præcist tilbud."
-<<<<<<< HEAD
-          />
-=======
->>>>>>> 2a44582 (Fix AntiRouille page Danish text and syntax)
           />
         </div>
       </section>
