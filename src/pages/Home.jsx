@@ -72,7 +72,7 @@ export default function Home() {
     error: "",
   });
   const [reviewSent, setReviewSent] = useState(false);
-  const apiBaseUrl = import.meta.env.VITE_API_URL || "http://localhost:3000";
+  const apiBaseUrl = import.meta.env.VITE_API_URL || "https://skjold-production-f44f.up.railway.app";
   const location = useLocation();
 
   useEffect(() => {
