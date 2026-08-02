@@ -146,6 +146,7 @@ export default function AntiRouille() {
             text:
               `Speciel behandling er en avanceret indsats målrettet køretøjer med særlige behov: allerede synlig korrosion, intensiv brug, udsættelse for ekstreme forhold eller særlige karakteristika pga. alder eller type.
                 Modsat standard- eller vedligeholdelsesbehandlinger sigter denne behandling mod at korrigere, stabilisere og styrke beskyttelsen af allerede svækkede eller svært tilgængelige områder.`,
+          },
           {
             subtitle: "Hvilke køretøjer?",
             text:
@@ -227,7 +228,7 @@ export default function AntiRouille() {
         </div>
       </section>
 
-      {/* Main Content with Sidebar Layout */}
+      {/* Hovedindhold med sidepanel */}
       <main className="max-w-container-max mx-auto px-gutter py-xl">
         <div className="flex flex-col lg:flex-row gap-lg">
           {/* Vertical Side Navigation */}
@@ -264,7 +265,7 @@ export default function AntiRouille() {
             </div>
           </aside>
 
-          {/* Service Detail Content */}
+          {/* Serviceindhold */}
           <article className="w-full lg:w-2/3 xl:w-3/4">
             <div className="max-w-3xl">
               <h2 className="font-headline-xl text-headline-xl text-on-surface mb-md">
@@ -352,7 +353,10 @@ export default function AntiRouille() {
           <FaqItem
             question="Hvad koster en komplet behandling?"
             answer="Prisen varierer efter køretøjets størrelse. Vores priser starter fra 350 kr. for en komplet chassisbehandling. Kontakt os for et præcist tilbud."
+<<<<<<< HEAD
           />
+=======
+>>>>>>> 2a44582 (Fix AntiRouille page Danish text and syntax)
           />
         </div>
       </section>
