@@ -21,7 +21,7 @@ export default function AdminSubscribers() {
   const [search, setSearch] = useState("");
   const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [deleteTarget, setDeleteTarget] = useState(null);
-  const apiBaseUrl = import.meta.env.VITE_API_URL || "http://localhost:3000";
+  const apiBaseUrl = import.meta.env.VITE_API_URL || "https://skjold-production-f44f.up.railway.app";
 
   // Data til siden med nyhedsbrev-abonnenter
 
