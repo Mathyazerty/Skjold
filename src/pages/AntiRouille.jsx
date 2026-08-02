@@ -140,26 +140,22 @@ export default function AntiRouille() {
         ],
       },
       "Speciel behandling": {
-        title: "Speciel behandling",
-        sections: [
-          {
-            text:
-              `Speciel behandling er en avanceret indsats målrettet køretøjer med særlige behov: allerede synlig korrosion, intensiv brug, udsættelse for ekstreme forhold eller særlige karakteristika pga. alder eller type.
-                Modsat standard- eller vedligeholdelsesbehandlinger sigter denne behandling mod at korrigere, stabilisere og styrke beskyttelsen af allerede svækkede eller svært tilgængelige områder.`,
-          },
-          {
-            subtitle: "Hvilke køretøjer?",
-            text:
-              `Denne behandling henvender sig primært til:`,
-
-            items: [
-              "gamle køretøjer, hvor chassiset er begyndt at oxidere",
-              "erhvervskøretøjer med intensiv brug",
-              "4x4, SUV'er og terrængående køretøjer udsat for mudder, fugt eller stød",
-              "køretøjer, der har fået skader eller reparationer på chassiset",
-              "biler, der kører i ekstreme miljøer (kystområder, saltsprøjt, byggepladser)",
-            ],
-          },
+  title: "Speciel behandling",
+  sections: [
+    {
+      text: "Speciel behandling er en avanceret indsats målrettet køretøjer med særlige behov: allerede synlig korrosion, intensiv brug, udsættelse for ekstreme forhold eller særlige karakteristika pga. alder eller type. Modsat standard- eller vedligeholdelsesbehandlinger sigter denne behandling mod at korrigere, stabilisere og styrke beskyttelsen af allerede svækkede eller svært tilgængelige områder.",
+    },
+    {
+      subtitle: "Hvilke køretøjer?",
+      text: "Denne behandling henvender sig primært til:",
+      items: [
+        "gamle køretøjer, hvor chassiset er begyndt at oxidere",
+        "erhvervskøretøjer med intensiv brug",
+        "4x4, SUV'er og terrængående køretøjer udsat for mudder, fugt eller stød",
+        "køretøjer, der har fået skader eller reparationer på chassiset",
+        "biler, der kører i ekstreme miljøer (kystområder, saltsprøjt, byggepladser)",
+      ],
+    },
           {
             subtitle: "Hvorfor speciel behandling?",
             text:
