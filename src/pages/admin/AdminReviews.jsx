@@ -51,7 +51,7 @@ export default function AdminReviews() {
 
     const fetchReviews = async () => {
       try {
-        const res = await fetch("http://localhost:3000/api/admin/reviews", {
+        const res = await fetch("https://skjold-production-f44f.up.railway.app/api/admin/reviews", {
           headers: { Authorization: `Bearer ${token}` },
         });
 
@@ -106,7 +106,7 @@ export default function AdminReviews() {
     }
 
     try {
-      const res = await fetch(`http://localhost:3000/api/admin/reviews/${id}`, {
+      const res = await fetch(`https://skjold-production-f44f.up.railway.app/api/admin/reviews/${id}`, {
         method: "DELETE",
         headers: { Authorization: `Bearer ${token}` },
       });
