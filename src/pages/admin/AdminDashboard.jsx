@@ -141,7 +141,7 @@ export default function AdminDashboard() {
 
     const fetchQuotes = async () => {
       try {
-        const response = await fetch("http://localhost:3000/api/admin/quotes", {
+        const response = await fetch("https://skjold-production-f44f.up.railway.app/api/admin/quotes", {
           headers: {
             Authorization: `Bearer ${token}`,
           },
@@ -176,7 +176,7 @@ export default function AdminDashboard() {
 
     const fetchReviews = async () => {
       try {
-        const response = await fetch("http://localhost:3000/api/admin/reviews", {
+        const response = await fetch("https://skjold-production-f44f.up.railway.app/api/admin/reviews", {
           headers: {
             Authorization: `Bearer ${token}`,
           },
@@ -215,7 +215,7 @@ export default function AdminDashboard() {
 
     const fetchSubscribers = async () => {
       try {
-        const response = await fetch("http://localhost:3000/api/admin/subscribers", {
+        const response = await fetch("https://skjold-production-f44f.up.railway.app/api/admin/subscribers", {
           headers: {
             Authorization: `Bearer ${token}`,
           },
